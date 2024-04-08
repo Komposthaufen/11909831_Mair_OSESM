@@ -38,12 +38,7 @@ print("Div:", Div)
 print("Pot:", Pot)
 
 
-#4 Funktionen
-def factorial(n):
-    #Calculate the factorial of a non-negative integer.
-    return 1 if n == 0 else n * factorial(n-1)
-
-
+#3 Funktionen
 def is_prime(n):
     #Check if a number is prime.
     if n <= 1: return False
@@ -61,12 +56,11 @@ def is_odd(n):
 
 
 # Calling the  functions with v_1
-v_1_factorial = factorial(v_1)
+
 v_1_is_prime = is_prime(v_1)
 v_1_even = is_even(v_1)
 v_1_odd = is_odd(v_1)
 
-print("Faktorial:", v_1_factorial)
 print("IsPrime:", v_1_is_prime)
 print("Even:", v_1_even)
 print("Odd:", v_1_odd)
