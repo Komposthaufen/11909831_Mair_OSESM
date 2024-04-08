@@ -37,3 +37,33 @@ print("Produkt:",Produkt)
 print("Sub:",Sub)
 print("Div:",Div)
 print("Pot:",Pot)
+
+def factorial(n):
+    #Calculate the factorial of a non-negative integer.
+    return 1 if n == 0 else n * factorial(n-1)
+
+
+def is_prime(n):
+    #Check if a number is prime.
+    if n <= 1: return False
+    return all(n % i != 0 for i in range(2, int(n**0.5) + 1))
+
+def is_even(n):
+    #Check if a number is even.
+    return n % 2 == 0
+
+def is_odd(n):
+    #Check if a number is odd.
+    return n % 2 != 0
+
+
+# Calling the  functions with v_1
+v_1_factorial = factorial(v_1)
+v_1_is_prime = is_prime(v_1)
+v_1_even = is_even(v_1)
+v_1_odd = is_odd(v_1)
+
+print("Faktorial:",v_1_factorial)
+print("IsPrime:",v_1_is_prime)
+print("Even:",v_1_even)
+print("Odd:",v_1_odd)
