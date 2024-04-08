@@ -1,6 +1,4 @@
 
-import numpy as np
-
 v_1 = 100
 v_2 = 20
 
@@ -10,19 +8,6 @@ v_1 = v_2
 # Ausgabe einer Variable
 print("Wert von Variable 1:", v_1)
 print("\n")
-
-# Definition über liste
-z = [1.1, 2.2, 3.3]
-vec1 = np.array(z)
-print(vec1)
-print("Dimensionen:", np.shape(z))
-print("Länge der Liste:", len(z))
-
-# Mehrdimensionale Matrix
-y = [[2.9], [2.3], [3.6]]  # Liste von Listen
-vec2 = np.array(y)
-print(vec2)
-print("Dimensionen:", np.shape(y))
 
 # Rechnungen
 Summe = v_1 + v_2
