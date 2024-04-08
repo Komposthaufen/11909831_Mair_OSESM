@@ -7,3 +7,5 @@ Contians basic arithmetic calculations, as well as 3 functions:
 is_odd -> checks if a number is odd
 is_even -> checks if a number is even
 is_prime -> checks if a number is a prime number
+
+Ruff ckeck generated 9 errors that i dont know how to fix. The generated solution dosn't work and i cant seem to find a good alternative to == true/false.
