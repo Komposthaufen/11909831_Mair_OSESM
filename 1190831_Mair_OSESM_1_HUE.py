@@ -1,6 +1,5 @@
 
 import numpy as np
-import random
 
 v_1 = 100
 v_2 = 20
@@ -9,9 +8,8 @@ v_2 = 20
 v_1 = v_2
 
 # Ausgabe einer Variable
-print("Wert von Variable 1:",v_1)
+print("Wert von Variable 1:", v_1)
 print("\n")
-
 
 # Definition über liste
 z = [1.1, 2.2, 3.3]
@@ -32,16 +30,15 @@ Sub = v_1 - v_1
 Div = v_1 / v_1
 Pot = v_1 ** v_1
 
-print("Summe:",Summe)
-print("Produkt:",Produkt)
-print("Sub:",Sub)
-print("Div:",Div)
-print("Pot:",Pot)
+print("Summe:", Summe)
+print("Produkt:", Produkt)
+print("Sub:", Sub)
+print("Div:", Div)
+print("Pot:", Pot)
 
 def factorial(n):
     #Calculate the factorial of a non-negative integer.
     return 1 if n == 0 else n * factorial(n-1)
-
 
 def is_prime(n):
     #Check if a number is prime.
@@ -56,14 +53,13 @@ def is_odd(n):
     #Check if a number is odd.
     return n % 2 != 0
 
-
 # Calling the  functions with v_1
 v_1_factorial = factorial(v_1)
 v_1_is_prime = is_prime(v_1)
 v_1_even = is_even(v_1)
 v_1_odd = is_odd(v_1)
 
-print("Faktorial:",v_1_factorial)
-print("IsPrime:",v_1_is_prime)
-print("Even:",v_1_even)
-print("Odd:",v_1_odd)
+print("Faktorial:", v_1_factorial)
+print("IsPrime:", v_1_is_prime)
+print("Even:", v_1_even)
+print("Odd:", v_1_odd)
