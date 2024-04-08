@@ -4,7 +4,7 @@ from Mair_OSESM_1HUE import is_even
 from Mair_OSESM_1HUE import is_odd
 
 def test_is_prime():
-    assert is_prime(4) == True
+    assert is_prime(3) == True
     assert is_prime(7) == True
     assert is_prime(4) == False
 
