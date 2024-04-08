@@ -1,6 +1,4 @@
 
-import numpy as np
-
 v_1 = 100
 v_2 = 20
 
