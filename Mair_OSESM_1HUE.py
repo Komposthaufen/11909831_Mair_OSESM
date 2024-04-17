@@ -1,4 +1,3 @@
-
 v_1 = 100
 v_2 = 20
 
@@ -50,3 +49,4 @@ v_1_odd = is_odd(v_1)
 print("IsPrime:", v_1_is_prime)
 print("Even:", v_1_even)
 print("Odd:", v_1_odd)
+print("Is 16 even? -> " + str(is_even(16)))
